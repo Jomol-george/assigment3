@@ -1,0 +1,47 @@
+/* Author:JOMOLG
+Date:03/01/2023 */
+.parent{
+    border: solid 2px #00f;
+    height: 450px;
+    width:600px;
+    position:relative;
+    left:200px;  
+}
+
+.child{
+    border:solid 2px #f00;
+    height:250px;
+    width:250px;
+    position:static;
+    left:0;
+    top:0;
+}
+
+.grandchild{
+    border:solid 2px #0f0;
+    height:100px;
+    width:100px;
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+
+.fixed{
+    border: solid 2px #00f;
+    height: 80px;
+    width: 80px;
+    position:fixed;
+    right:0;
+    bottom: 0;
+    background-color:#00f;
+}
+
+p{
+    font-size: 36px;
+}
+
+.sticky{
+    background-color: yellow;
+    position: sticky;
+    top: 0;
+}
